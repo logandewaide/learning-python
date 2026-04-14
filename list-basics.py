@@ -57,9 +57,19 @@ print(basicList)
 basicList.pop()
 print(basicList)
 
+# iterating
+for n in basicList:
+    print(n)
+for i in range(len(basicList)):
+    print(basicList[i])
+
+newList = [x-1 for x in basicList]
+print(newList)
+
 #del and clear
 del basicList[-1]
 print(basicList)
 basicList.clear()
 print(basicList)
 del basicList
+
